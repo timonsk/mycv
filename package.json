@@ -1,0 +1,38 @@
+{
+    "name": "cv",
+    "version": "1.0.0",
+    "license": "MIT",
+    "angular-cli": {},
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "lint": "tslint \"src/**/*.ts\" --project src/tsconfig.json --type-check && tslint \"e2e/**/*.ts\" --project e2e/tsconfig.json --type-check",
+        "test": "ng test"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "4.0.2",
+        "@angular/common": "4.0.2",
+        "@angular/compiler": "4.0.2",
+        "@angular/core": "4.0.2",
+        "@angular/forms": "4.0.2",
+        "@angular/http": "4.0.2",
+        "@angular/material": "^2.0.0-beta.3",
+        "@angular/platform-browser": "4.0.2",
+        "@angular/platform-browser-dynamic": "4.0.2",
+        "@angular/router": "4.0.2",
+        "core-js": "2.4.1",
+        "rxjs": "5.1.0",
+        "ts-helpers": "1.1.2",
+        "zone.js": "0.8.4"
+    },
+    "devDependencies": {
+        "@angular/compiler-cli": "4.0.2",
+        "@types/node": "6.0.69",
+        "angular-cli": "1.0.0-beta.22-1",
+        "codelyzer": "2.0.0",
+        "ts-node": "2.0.0",
+        "tslint": "3.15.1",
+        "typescript": "2.3.2"
+    }
+}
