@@ -2,19 +2,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { MdCardModule, MdButtonModule } from "@angular/material";
 
-import { AppComponent } from './app.component';
+import { AppComponent } from 'components/app/app.component';
+import { HeroComponent } from 'components/hero/hero.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    MdCardModule,
+    MdButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class MainModule { }
