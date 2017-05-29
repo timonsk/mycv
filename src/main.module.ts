@@ -6,11 +6,13 @@ import { MdCardModule, MdButtonModule } from "@angular/material";
 
 import { AppComponent } from 'components/app/app.component';
 import { HeroComponent } from 'components/hero/hero.component';
+import { StoryComponent } from 'components/story/story.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroComponent
+    HeroComponent,
+    StoryComponent
   ],
   imports: [
     BrowserModule,
